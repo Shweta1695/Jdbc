@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear_main_login"
+    android:layout_marginHorizontal="20dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo_small" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutEmail"
+        android:layout_width="match_parent"
+        app:startIconDrawable="@mipmap/ic_launcher_round"
+        app:endIconMode="clear_text"
+        app:boxBackgroundColor="@color/white"
+        app:errorEnabled="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/purple_700" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutPassword"
+        android:layout_width="match_parent"
+        app:startIconDrawable="@mipmap/ic_launcher_round"
+        app:endIconMode="password_toggle"
+        app:boxBackgroundColor="@color/white"
+        app:errorEnabled="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="@color/purple_700" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progress_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        style="?android:attr/progressBarStyleLarge"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButtonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/rounded_corner"
+        android:text="@string/text_login" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_register"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColorHighlight="@color/teal_200"
+            android:layout_marginStart="70dp"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textViewLinkRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/bg_color"
+            android:layout_marginTop="30dp"
+            android:focusable="true"
+            android:clickable="true"
+            android:textColor="@color/text_color"
+            android:text="@string/text_reg"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

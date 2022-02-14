@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "648696220247",
+    "project_id": "fir-two-88b52",
+    "storage_bucket": "fir-two-88b52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648696220247:android:26c8001723a565e4357112",
+        "android_client_info": {
+          "package_name": "com.example.firebasetwo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648696220247-9ij9k4vrle7h1je9ma3rso0khti1frdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJDufY9mrtbpeU7Tm1UVafeAKMkFtem5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648696220247-9ij9k4vrle7h1je9ma3rso0khti1frdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

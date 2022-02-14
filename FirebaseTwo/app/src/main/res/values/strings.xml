@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FirebaseTwo</string>
+    <string name="hint_email">Enter Email</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_name">Name</string>
+    <string name="text_lastname">Last Name</string>
+    <string name="text_pass">Password</string>
+    <string name="text_DOB">Birth Date</string>
+    <string name="text_Contact">Contact</string>
+    <string name="text_address">Address</string>
+
+    <string name="error_message_email">Enter proper email</string>
+    <string name="error_message_name">Enter Name</string>
+    <string name="error_message_lname">Enter Last Name</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="error_message_dob">Enter DOB</string>
+    <string name="error_message_Contact">Provide Valid contact number</string>
+    <string name="error_message_address">Enter Address</string>
+    <string name="error_message_type">Select Type</string>
+
+
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+
+
+    <string name="text_register">Not Registered Yet ?   </string>
+    <string name="text_reg">Register Now</string>
+
+    <string-array name="brew_array">
+        <item>Owner</item>
+        <item>Admin</item>
+        <item>Student</item>
+    </string-array>
+
+</resources>
