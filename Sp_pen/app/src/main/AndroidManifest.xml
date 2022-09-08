@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.offpen.sp_pen">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/readerpensmall"
+        android:label="Sp Pen"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sp_pen">
+
+        <activity
+            android:name=".Admin.InviteAdmin"
+            android:exported="false"
+            android:theme="@style/Theme.Sp_pen.NoActionBar" />
+        <activity
+            android:name=".AddStudentActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Sp_pen.NoActionBar" />
+        <activity
+            android:name=".Tag.TagPenActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.Sp_pen.NoActionBar" />
+        <activity
+            android:name=".Tag.TagStudentActivity"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.Sp_pen.NoActionBar" />
+        <activity
+            android:name=".sideDrawer.My_org"
+            android:exported="false" />
+        <activity
+            android:name=".PenDeleteActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Sp_pen.NoActionBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Sp_pen.NoActionBar" />
+        <activity
+            android:name=".CreateOrgActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.Sp_pen.NoActionBar" />
+        <activity
+            android:name=".AddPenActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Sp_pen.NoActionBar" />
+        <activity
+            android:name=".RegisterActivityMain"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.Sp_pen.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="@string/title_activity_register"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="Login"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.Sp_pen.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

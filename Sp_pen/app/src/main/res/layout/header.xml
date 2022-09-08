@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backgroundLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/header_back"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="30dp"
+    tools:showIn="20dp">
+
+   <!-- <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription=""
+        android:src="@drawable/arrow_back1" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Invite New Admin\n to Organisation"
+        android:textColor="@color/headertextColor"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>

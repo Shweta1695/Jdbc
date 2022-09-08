@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.2890625" />
+        <entry key="../../Library/Android/sdk/platforms/android-31/data/res/drawable/spinner_background_material.xml" value="0.24814814814814815" />
+        <entry key="../../Library/Android/sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.1" />
+        <entry key="../../Library/Android/sdk/platforms/android-31/data/res/layout/simple_spinner_item.xml" value="0.21614583333333334" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3046875" />
+        <entry key="app/src/main/res/drawable-v24/ic_per_foreground.xml" value="0.3963541666666667" />
+        <entry key="app/src/main/res/drawable/addpen_dialog.xml" value="0.35462962962962963" />
+        <entry key="app/src/main/res/drawable/bg_color.xml" value="0.2856410256410256" />
+        <entry key="app/src/main/res/drawable/err_back.xml" value="0.2765625" />
+        <entry key="app/src/main/res/drawable/err_normal.xml" value="0.2765625" />
+        <entry key="app/src/main/res/drawable/header.xml" value="0.3523076923076923" />
+        <entry key="app/src/main/res/drawable/header_back.xml" value="0.3523076923076923" />
+        <entry key="app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.3536458333333333" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2838541666666667" />
+        <entry key="app/src/main/res/drawable/ic_loading_spin.xml" value="0.15833333333333333" />
+        <entry key="app/src/main/res/drawable/nav_item_color_state.xml" value="0.24537037037037038" />
+        <entry key="app/src/main/res/drawable/round_back_reg.xml" value="0.3074074074074074" />
+        <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.2856410256410256" />
+        <entry key="app/src/main/res/drawable/rounded_corner_plain.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable/test.xml" value="0.3255208333333333" />
+        <entry key="app/src/main/res/font/emilys_candy.xml" value="0.25555555555555554" />
+        <entry key="app/src/main/res/layout/activity_add_pen.xml" value="0.2613981762917933" />
+        <entry key="app/src/main/res/layout/activity_add_student.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_create_org.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_invite_admin.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_login_new.xml" value="0.18070652173913043" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22340425531914893" />
+        <entry key="app/src/main/res/layout/activity_my_org.xml" value="0.31302083333333336" />
+        <entry key="app/src/main/res/layout/activity_pen_delete.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.2669138090824838" />
+        <entry key="app/src/main/res/layout/activity_register_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_register_screen_code.xml" value="0.12639311043566362" />
+        <entry key="app/src/main/res/layout/activity_tag_pen.xml" value="0.34989200863930886" />
+        <entry key="app/src/main/res/layout/activity_tag_pen1.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/addpen_dialog.xml" value="0.55" />
+        <entry key="app/src/main/res/layout/btm_color.xml" value="0.1675925925925926" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/content_register.xml" value="0.16077898550724637" />
+        <entry key="app/src/main/res/layout/fragment_admin.xml" value="0.20364741641337386" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.22796352583586627" />
+        <entry key="app/src/main/res/layout/fragment_pen.xml" value="0.20364741641337386" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.22796352583586627" />
+        <entry key="app/src/main/res/layout/fragment_student.xml" value="0.20364741641337386" />
+        <entry key="app/src/main/res/layout/header.xml" value="0.21145833333333333" />
+        <entry key="app/src/main/res/layout/nav_header.xml" value="0.22796352583586627" />
+        <entry key="app/src/main/res/layout/sample_add_dialog.xml" value="0.2791666666666667" />
+        <entry key="app/src/main/res/layout/spinner_tagpen.xml" value="0.30615384615384617" />
+        <entry key="app/src/main/res/layout/success_dialog.xml" value="0.2515625" />
+        <entry key="app/src/main/res/layout/tick.xml" value="0.27355072463768115" />
+        <entry key="app/src/main/res/layout/viewadmin_listitem.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/viewpen_listitem.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/viewstudent.xml" value="0.17962962962962964" />
+        <entry key="app/src/main/res/layout/viewstudent_listitem.xml" value="0.31825037707390647" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.30185185185185187" />
+        <entry key="app/src/main/res/menu/nav_menu.xml" value="0.3787037037037037" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.20364741641337386" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

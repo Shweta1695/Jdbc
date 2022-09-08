@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="4dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@color/backgroundColor">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:gravity="center_vertical"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="59dp"
+            android:layout_height="65dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/checkBox"
+            android:src="@drawable/user" />
+
+
+        <TextView
+            android:id="@+id/adminname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="7dp"
+            android:layout_toEndOf="@+id/img"
+            android:text="Admin name"
+            android:textColor="@color/textColor"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/user_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/adminname"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/img"
+            android:text="Type"
+            android:textColor="@color/textColor"
+            android:textSize="19sp" />
+
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="65dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/settings400" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

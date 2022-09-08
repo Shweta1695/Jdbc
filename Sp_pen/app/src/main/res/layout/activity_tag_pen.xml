@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Tag.TagPenActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/selectpen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.2"
+            android:text="@string/select_pen"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/static_spinner_pen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:tag="@string/delete"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/static_spinner_color" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+
+        android:paddingTop="10dp"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear1">
+
+        <TextView
+            android:id="@+id/selectname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.2"
+            android:gravity="center_vertical"
+            android:text="@string/tag_name"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/static_spinner_name"
+            android:layout_width="195dp"
+            android:layout_height="46dp"
+            android:layout_toEndOf="@+id/selectname"
+            android:layout_weight="0.8"
+            android:gravity="center_vertical"
+            android:tag="@string/delete" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textcustomtag"
+            android:layout_width="195dp"
+            android:layout_height="46dp"
+            android:layout_toEndOf="@+id/selectname"
+            android:visibility="invisible"
+            app:counterEnabled="true"
+            app:counterMaxLength="20">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_custom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/textColor"
+                android:maxLength="20" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/customtag_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="clip_vertical"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/rounded_corner"
+            android:elevation="4dp"
+            android:text="Custom Tag"
+            android:textSize="10sp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear2">
+
+        <TextView
+            android:id="@+id/selectcolor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.2"
+            android:text="@string/select_color"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/static_spinner_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:tag="@string/delete"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/static_spinner_color" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.2"
+            android:padding="5dp"
+            android:text="@string/description"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textdetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            app:counterEnabled="true"
+            app:counterMaxLength="20">
+
+            <EditText
+                android:id="@+id/textedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="20" />
+
+            <!--android:hint="Text Hint" />-->
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--<EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:layout_weight="0.8"
+            android:lines="2"
+            android:scrollHorizontally="false"
+            android:minLines="1"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            />
+-->
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:weightSum="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear3"
+        tools:layout_editor_absoluteX="10dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ButtonCanceltagpen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/rounded_corner"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/t1" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></Space>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ButtonCreatePenTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/rounded_corner"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/create_tag"
+            android:textAllCaps="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/t1" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#37cbb3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="textColor">#FF000000</color>
+
+
+    <color name="textColoedsr">#FCFCFC</color>
+    <color name="textColsdor">#9C9C9C</color>
+
+
+    <color name="headertextColor">#FFFFFFFF</color>
+    <color name="editextColor">#000000</color>
+
+    <color name="backgroundColor">#FCFCFC</color>
+    <color name="blue">#67CBE2</color>
+    <color name="blue_dark">#3F51B5</color>
+
+    <color name="grey">#93949E</color>
+    <color name="tealish">#26a198</color>
+    <color name="greenblue">#21b68c</color>
+    <color name="bright_cyan">#50cbe2</color>
+    <color name="greyblue">#65c4bf</color>
+    <color name="yellow_orange">#ffb400</color>
+    <color name="brown_grey">#979797</color>
+    <color name="tealish_47">#7825afc7</color>
+    <color name="vivid_green_0">#002dd71a</color>
+    <color name="tealish_34">#5634c2c6</color>
+    <color name="very_light_pink_0">#00eeeeee</color>
+    <color name="aqua_marine">#37cbb3</color>
+    <color name="bright_sky_blue_15">#261ebce5</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="red">#F5FB0000</color>
+    <color name="red1">#D86A62</color>
+    <color name="green1">#88AE5D</color>
+    <color name="transparent">#00FB0000</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+
+
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateOrgActivity">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linear_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/logo"
+                android:src="@drawable/logo_small" />
+
+
+            <!--org name-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutOrgName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:endIconMode="clear_text"
+                android:layout_marginTop="40dp"
+                app:boxBackgroundColor="@color/white"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditTextOrgName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/org_name"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColor="@color/purple_700" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--org name-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutOrgCnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:endIconMode="clear_text"
+                app:boxBackgroundColor="@color/white"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditTextOrgCnt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/text_Mobile"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:textColor="@color/purple_700" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--password-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutOrgAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:boxBackgroundColor="@color/white"
+                app:endIconMode="clear_text"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditTextOrgAdd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/text_address"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColor="@color/purple_700" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButtonCreateOrg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/rounded_corner"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/create_org" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>
